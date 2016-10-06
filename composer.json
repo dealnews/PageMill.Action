@@ -1,0 +1,31 @@
+{
+    "name": "pagemill/action",
+    "type": "library",
+    "description": "An action class for PHP web applications",
+    "homepage": "https://github.com/dealnews/PageMill.Action",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Brian Moon",
+            "email": "brianm@dealnews.com",
+            "homepage": "http://dealnews.com/",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PageMill\\Action\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PageMill\\Action\\": "tests/"
+        }
+    }
+}
